@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.3.0] - 2024-02-06
+
+### Adicionado
+- Script de rolagem suave entre seções
+- Offset para posicionamento correto ao navegar
+- Melhoria na experiência de navegação
+
+### Modificado
+- Removido link para seção de Objetivos no cabeçalho
+- Ajuste no comportamento de scroll entre seções
+
+### Melhorado
+- Usabilidade da navegação
+- Preservação de contexto visual ao mudar de seção
+
+## [0.2.9] - 2024-02-06
+
+### Adicionado
+- Link para seção de Equipe no cabeçalho
+
+### Melhorado
+- Navegação do site
+- Clareza dos links de navegação
+- Acessibilidade do menu principal
+
 ## [0.2.8] - 2024-02-06
 
 ### Adicionado

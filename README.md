@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.2.8
+- **Versão**: 0.3.0
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -36,6 +36,16 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Navegação interativa com botões e teclado
 - Suporte a gestos de toque em dispositivos móveis
 - Apresentação detalhada de cada membro da equipe
+- Adicionados links para Objetivos e Equipe no cabeçalho
+- Melhoria na navegação do site
+- Links de menu mais claros e intuitivos
+- Implementação de rolagem suave entre seções
+- Ajuste de posicionamento ao navegar
+- Remoção de link redundante para seção de Objetivos
+
+### Melhorado
+- Experiência de navegação
+- Transição entre seções do site
 
 ## Funcionalidades
 
