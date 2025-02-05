@@ -1,5 +1,38 @@
 # Changelog
 
+## [0.2.6] - 2024-02-06
+
+### Corrigido
+- Caminhos dos favicons no HTML
+- Problema de carregamento de ícones de página
+
+### Melhorado
+- Compatibilidade de caminhos relativos
+- Carregamento de recursos estáticos
+
+## [0.2.5] - 2024-02-06
+
+### Removido
+- Scripts de geração de favicon desnecessários
+- Arquivo favicon.ico redundante
+- Código de conversão de ícones não utilizado
+
+### Melhorado
+- Limpeza do projeto
+- Simplificação dos arquivos de configuração
+
+## [0.2.4] - 2024-02-06
+
+### Adicionado
+- Geração de favicons a partir do logo original
+- Suporte para múltiplos tamanhos de favicon
+- Favicon .ico para compatibilidade com navegadores
+- Ícones para diferentes dispositivos e resoluções
+
+### Melhorado
+- Identidade visual do site
+- Reconhecimento da marca em diferentes contextos
+
 ## [0.2.3] - 2024-02-06
 
 ### Adicionado

@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.2.3
+- **Versão**: 0.2.6
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -20,6 +20,14 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Nova seção de slides para apresentar ações realizadas
 - Galeria de imagens com navegação interativa
 - Controles de slide automáticos e manuais
+- Geração de favicons a partir do logo original
+- Suporte para múltiplos tamanhos de favicon
+- Ícones para diferentes dispositivos e resoluções
+- Remoção de scripts de geração de favicon desnecessários
+- Simplificação dos arquivos do projeto
+- Manutenção de favicons em formato .png
+- Correção de caminhos para favicons
+- Melhoria na compatibilidade de carregamento de recursos estáticos
 
 ## Funcionalidades
 
