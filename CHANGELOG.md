@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.3] - 2024-02-06
+
+### Adicionado
+- Nova seção de slides para apresentar ações realizadas pelo Instituto
+
+## [0.2.2] - 2024-02-05
+
+### Adicionado
+- Seção de slides para apresentar ações realizadas pelo Instituto
+- Galeria de imagens com navegação automática e manual
+- Controles de slide interativos
+- Indicadores de slide
+
+### Melhorado
+- Experiência visual do site
+- Apresentação das atividades do Instituto
+
 ## [0.2.1] - 2024-02-05
 
 ### Corrigido

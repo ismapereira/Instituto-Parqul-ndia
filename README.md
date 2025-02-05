@@ -10,13 +10,16 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.2.1
-- **Data**: 05 de Fevereiro de 2024
+- **Versão**: 0.2.3
+- **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
 - Validação de formulário de contato
 - Tratamento de erros no formulário
 - Mensagens de erro personalizadas
+- Nova seção de slides para apresentar ações realizadas
+- Galeria de imagens com navegação interativa
+- Controles de slide automáticos e manuais
 
 ## Funcionalidades
 

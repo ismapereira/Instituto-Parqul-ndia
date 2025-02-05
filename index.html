@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/slide-acoes.css">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -84,6 +85,33 @@
             <p>Realizamos projetos concretos de impacto social, como campanhas de solidariedade, mutirões comunitários e iniciativas de suporte a grupos vulneráveis.</p>
         </div>
     </div>
+
+    <!-- Novo slide de ações -->
+    <section class="slide-acoes">
+        <div class="container">
+            <h2 class="secao-titulo">Nossas Ações</h2>
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="src/img/acao1.jpg" alt="Ação Social 1">
+                </div>
+                <div class="slide">
+                    <img src="src/img/acao2.jpg" alt="Ação Social 2">
+                </div>
+                <div class="slide">
+                    <img src="src/img/acao3.jpg" alt="Ação Social 3">
+                </div>
+            </div>
+            <div class="slide-controls">
+                <button class="slide-btn btn-anterior">&lt; Anterior</button>
+                <button class="slide-btn btn-proximo">Próximo &gt;</button>
+            </div>
+            <div class="slide-indicadores">
+                <span class="indicador ativo"></span>
+                <span class="indicador"></span>
+                <span class="indicador"></span>
+            </div>
+        </div>
+    </section>
 
     <!-- Seção de Pilares -->
     <section id="pilares" class="secao">
@@ -213,5 +241,6 @@
     <script src="src/js/objetivos-modal.js"></script>
     <script src="src/js/scroll-animations.js"></script>
     <script src="src/js/form-validation.js"></script>
+    <script src="src/js/slide-acoes.js"></script>
 </body>
 </html>
