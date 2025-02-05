@@ -1,0 +1,125 @@
+/* Estilos responsivos para diferentes tamanhos de tela */
+
+/* Dispositivos extra pequenos (celulares) */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero-section {
+        height: auto;
+        min-height: 70vh;
+        padding: 100px 15px 50px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .objetivos-grid,
+    .pilares-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .objetivo-card,
+    .pilar-card {
+        padding: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    #mapa-localizacao {
+        height: 250px;
+    }
+
+    footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Dispositivos pequenos (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .hero-section {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .objetivos-grid,
+    .pilares-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .navbar-nav {
+        gap: 1rem;
+    }
+}
+
+/* Dispositivos grandes (desktops) */
+@media (min-width: 993px) {
+    .hero-section {
+        height: 100vh;
+    }
+
+    .slide img {
+        max-height: 80vh;
+    }
+}
+
+/* Acessibilidade e Redução de Movimento */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}
+
+/* Tema Escuro */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --cor-fundo: #121212;
+        --cor-texto: #e0e0e0;
+        --cor-branco: #1e1e1e;
+        --cor-branco-suave: #1a1a1a;
+    }
+
+    body {
+        background-color: var(--cor-fundo);
+        color: var(--cor-texto);
+    }
+
+    .objetivo-card,
+    .pilar-card {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+}
+
+/* Animações e Transições Responsivas */
+@media (prefers-reduced-motion: no-preference) {
+    .objetivo-card,
+    .pilar-card {
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .objetivo-card:hover,
+    .pilar-card:hover {
+        transform: translateY(-20px) scale(1.03);
+        box-shadow: 0 20px 40px rgba(20, 82, 59, 0.25);
+    }
+
+    .nav-link::after {
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+}
