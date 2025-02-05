@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.3] - 2024-02-06
+
+### Corrigido
+- Altura do mapa de localização
+- Dimensões do embed do Google Maps
+
+### Ajustado
+- Tamanho vertical do iframe de localização
+
+## [0.3.2] - 2024-02-06
+
+### Atualizado
+- Informações de contato e localização
+- Endereço físico do Instituto
+- Número de telefone
+- Embed do Google Maps
+
+### Corrigido
+- Precisão das informações de contato
+- Link do mapa para endereço correto
+
 ## [0.3.1] - 2024-02-06
 
 ### Adicionado

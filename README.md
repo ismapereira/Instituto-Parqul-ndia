@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.3.1
+- **Versão**: 0.3.3
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -45,6 +45,17 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Animação de fundo dinâmica na página inicial
 - Efeito de gradiente suave e formas em movimento
 - Melhoria na experiência visual de carregamento
+- Atualização completa das informações de contato
+- Endereço físico preciso
+- Número de telefone atualizado
+- Mapa com localização exata
+
+### Corrigido
+- Dimensões do mapa de localização
+- Altura do embed do Google Maps
+
+### Ajustado
+- Tamanho vertical do iframe
 
 ### Melhorado
 - Experiência de navegação
@@ -52,6 +63,8 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Design da página inicial
 - Uso de cores institucionais
 - Interatividade visual
+- Precisão das informações institucionais
+- Facilidade de contato para interessados
 
 ## Funcionalidades
 
