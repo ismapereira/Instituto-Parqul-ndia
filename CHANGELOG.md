@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.2.8] - 2024-02-06
+
+### Adicionado
+- Slider horizontal interativo para seção de membros
+- Navegação por botões de próximo e anterior
+- Suporte para navegação por teclado (setas direita/esquerda)
+- Compatibilidade com gestos de toque em dispositivos móveis
+
+### Melhorado
+- Design e interatividade da seção de equipe
+- Experiência de usuário em diferentes dispositivos
+- Apresentação de informações dos membros
+
+### Modificado
+- Estrutura HTML da seção de membros
+- Estilos CSS para slider horizontal
+- Lógica de JavaScript para controle do slider
+
 ## [0.2.7] - 2024-02-06
 
 ### Adicionado

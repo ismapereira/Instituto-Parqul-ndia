@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.2.7
+- **Versão**: 0.2.8
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -32,6 +32,10 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Cartões interativos para membros do Instituto
 - Efeito de expansão horizontal ao clicar
 - Detalhes sobre funções e papéis da equipe
+- Slider horizontal para seção de membros
+- Navegação interativa com botões e teclado
+- Suporte a gestos de toque em dispositivos móveis
+- Apresentação detalhada de cada membro da equipe
 
 ## Funcionalidades
 
