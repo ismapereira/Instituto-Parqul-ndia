@@ -252,20 +252,22 @@ body {
     font-size: 1.2rem;
 }
 
-.redes-sociais-icones {
+.rodape-redes-sociais .redes-links {
     display: flex;
-    justify-content: center;
     gap: 20px;
+    justify-content: center;
 }
 
-.rede-social-link {
+.rodape-redes-sociais .rede-social-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.8rem;
+    transition: 
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.rodape-redes-sociais .rede-social-link:hover {
     color: var(--cor-branco);
-    font-size: 1.5rem;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.rede-social-link:hover {
-    color: var(--cor-secundaria);
     transform: scale(1.2);
 }
 

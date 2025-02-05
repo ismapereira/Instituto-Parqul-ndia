@@ -1,5 +1,65 @@
 # Changelog
 
+## [0.3.8] - 2024-02-06
+
+### Adicionado
+- Metadados SEO completos
+- Suporte para redes sociais (Open Graph)
+- Verificação geográfica
+- Schema.org JSON-LD
+- Descrições detalhadas para motores de busca
+
+### Modificado
+- Email de contato para institutoparquelandia@gmail.com
+- Título e descrição do site
+- Configurações de indexação
+
+### Melhorado
+- Visibilidade em mecanismos de busca
+- Compartilhamento em redes sociais
+- Informações institucionais online
+
+## [0.3.7] - 2024-02-06
+
+### Corrigido
+- Cor dos ícones de redes sociais
+- Contraste visual no rodapé
+
+### Melhorado
+- Legibilidade dos ícones de contato
+- Consistência visual dos elementos
+
+### Modificado
+- Estilo de cor dos links sociais
+
+## [0.3.6] - 2024-02-06
+
+### Modificado
+- Ícones de redes sociais no rodapé
+- Estilo de apresentação dos links sociais
+
+### Melhorado
+- Efeito de hover para ícones
+- Interatividade visual dos links
+
+### Removido
+- Texto junto aos ícones de redes sociais
+
+## [0.3.5] - 2024-02-06
+
+### Modificado
+- Redes sociais no rodapé
+- Links de contato social
+
+### Removido
+- Links para Facebook
+- Links para LinkedIn
+- Links para YouTube
+
+### Adicionado
+- Link oficial do Instagram
+- Link direto para WhatsApp
+
 ## [0.3.4] - 2024-02-06
 
 ### Adicionado

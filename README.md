@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.3.4
+- **Versão**: 0.3.8
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -52,13 +52,45 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Botão de rolagem rápida para o topo da página
 - Animação suave de aparecimento e desaparecimento
 - Melhoria na navegação de páginas longas
+- Redes sociais atualizadas no rodapé
+- Link oficial do Instagram
+- Link direto para WhatsApp
+- Ícones de redes sociais simplificados
+- Efeito de hover interativo
+- Design minimalista para links sociais
+- Ajuste de cor dos ícones de redes sociais
+- Melhoria no contraste visual
+- Consistência com design do rodapé
+- Implementação de estratégia SEO completa
+- Metadados detalhados para motores de busca
+- Suporte avançado para compartilhamento em redes sociais
+- Atualização do email institucional
+
+### Adicionado
+- Descrições otimizadas para SEO
+- Schema.org JSON-LD
+- Configurações de indexação
+- Verificação geográfica
 
 ### Corrigido
 - Dimensões do mapa de localização
 - Altura do embed do Google Maps
+- Legibilidade dos ícones de contato
+- Estilo visual dos links sociais
 
 ### Ajustado
 - Tamanho vertical do iframe
+
+### Modificado
+- Canais de comunicação social
+- Apresentação de links de contato
+- Apresentação dos links de redes sociais
+- Estilo de interação com ícones
+- Email de contato para institutoparquelandia@gmail.com
+- Título e descrição do site
+
+### Removido
+- Links para redes sociais não utilizadas
 
 ### Melhorado
 - Experiência de navegação
@@ -71,6 +103,12 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Experiência do usuário
 - Acessibilidade de navegação
 - Interatividade do site
+- Experiência visual do rodapé
+- Interatividade dos ícones de contato
+- Apresentação dos elementos de rodapé
+- Visibilidade online
+- Potencial de ranqueamento
+- Apresentação institucional em plataformas digitais
 
 ## Funcionalidades
 
@@ -127,6 +165,6 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contato
 
-Instituto Parquelândia - contato@institutoparquelandia.org
+Instituto Parquelândia - institutoparquelandia@gmail.com
 
 Desenvolvido com  pela comunidade de Parquelândia.
