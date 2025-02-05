@@ -1,0 +1,77 @@
+/* Animação de Fundo para Hero */
+.hero {
+    position: relative;
+    background-color: var(--cor-primaria);
+    background-image: 
+        linear-gradient(45deg, 
+            rgba(10, 61, 44, 0.9), 
+            rgba(196, 163, 90, 0.6)
+        );
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    overflow: hidden;
+}
+
+.hero::before,
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(196, 163, 90, 0.2), transparent 50%),
+        radial-gradient(circle at 80% 30%, rgba(10, 61, 44, 0.2), transparent 50%);
+    opacity: 0.5;
+    animation: movingShapes 20s linear infinite;
+}
+
+.hero::after {
+    animation-delay: -10s;
+    background: 
+        radial-gradient(circle at 50% 70%, rgba(196, 163, 90, 0.2), transparent 50%),
+        radial-gradient(circle at 30% 90%, rgba(10, 61, 44, 0.2), transparent 50%);
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes movingShapes {
+    0% {
+        transform: translateX(-10%) translateY(-10%) rotate(0deg);
+    }
+    50% {
+        transform: translateX(10%) translateY(10%) rotate(180deg);
+    }
+    100% {
+        transform: translateX(-10%) translateY(-10%) rotate(360deg);
+    }
+}
+
+/* Efeito de Entrada para Conteúdo do Hero */
+.hero-content {
+    position: relative;
+    z-index: 10;
+    animation: heroContentFadeIn 1.5s ease-out;
+}
+
+@keyframes heroContentFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

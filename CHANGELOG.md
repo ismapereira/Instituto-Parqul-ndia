@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.1] - 2024-02-06
+
+### Adicionado
+- Animação de fundo dinâmica para seção Hero
+- Efeito de gradiente animado
+- Formas sutis em movimento no background
+- Animação de entrada para conteúdo do Hero
+
+### Melhorado
+- Interatividade visual da página inicial
+- Experiência de carregamento da página
+- Uso de cores da paleta de design
+
+### Modificado
+- Estilo de fundo da seção Hero
+
 ## [0.3.0] - 2024-02-06
 
 ### Adicionado
