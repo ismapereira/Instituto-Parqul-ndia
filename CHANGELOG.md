@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.4] - 2024-02-06
+
+### Adicionado
+- Botão de rolagem rápida para o topo
+- Animação de aparecimento/desaparecimento
+- Suporte a rolagem suave
+
+### Melhorado
+- Navegabilidade do site
+- Experiência do usuário em páginas longas
+- Acessibilidade de navegação
+
 ## [0.3.3] - 2024-02-06
 
 ### Corrigido
