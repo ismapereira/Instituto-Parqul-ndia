@@ -151,15 +151,18 @@
     <section id="contato" class="formulario">
         <div class="container">
             <h2 class="secao-titulo">Entre em Contato</h2>
-            <form>
+            <form id="contact-form">
                 <div class="formulario-grupo">
-                    <input type="text" class="formulario-input" placeholder="Seu nome completo" required>
+                    <input type="text" id="nome" class="formulario-input" placeholder="Seu nome completo" required>
+                    <span id="nome-error" class="error-message"></span>
                 </div>
                 <div class="formulario-grupo">
-                    <input type="email" class="formulario-input" placeholder="Seu melhor e-mail" required>
+                    <input type="email" id="email" class="formulario-input" placeholder="Seu melhor e-mail" required>
+                    <span id="email-error" class="error-message"></span>
                 </div>
                 <div class="formulario-grupo">
-                    <textarea class="formulario-input" placeholder="Sua mensagem" rows="5" required></textarea>
+                    <textarea id="mensagem" class="formulario-input" placeholder="Sua mensagem" rows="5" required></textarea>
+                    <span id="mensagem-error" class="error-message"></span>
                 </div>
                 <button type="submit" class="btn">Enviar Mensagem</button>
             </form>
@@ -209,5 +212,6 @@
     <script src="src/js/script.js"></script>
     <script src="src/js/objetivos-modal.js"></script>
     <script src="src/js/scroll-animations.js"></script>
+    <script src="src/js/form-validation.js"></script>
 </body>
 </html>

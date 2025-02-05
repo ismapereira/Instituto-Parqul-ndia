@@ -8,13 +8,23 @@ O Instituto Parquelândia é uma iniciativa dedicada a promover o desenvolviment
 
 Unir vidas e fortalecer a comunidade através de ações sociais transformadoras, promovendo desenvolvimento integral, inclusão e colaboração.
 
+## Versão Atual
+
+- **Versão**: 0.2.1
+- **Data**: 05 de Fevereiro de 2024
+
+### Novidades
+- Validação de formulário de contato
+- Tratamento de erros no formulário
+- Mensagens de erro personalizadas
+
 ## Funcionalidades
 
 - Design Responsivo: Adaptável a diferentes dispositivos e tamanhos de tela
 - Seção Hero: Apresentação impactante da identidade do Instituto
 - Objetivos Interativos: Modais explicativos sobre cada objetivo
 - Pilares da Comunidade: Descrição clara dos princípios fundamentais
-- Formulário de Contato: Comunicação direta e simples
+- **Formulário de Contato com Validação**: Comunicação direta e validação em tempo real
 - Footer Informativo: Mapa, redes sociais e informações de contato
 
 ## Tecnologias Utilizadas
