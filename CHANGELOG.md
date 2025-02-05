@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.7] - 2024-02-06
+
+### Adicionado
+- Nova seção "Nossa Equipe" com informações dos membros
+- Efeito de expansão horizontal para detalhes dos membros
+- Interatividade com clique nos cartões de membros
+- Responsividade para diferentes tamanhos de tela
+- Novos arquivos CSS e JavaScript para seção de membros
+
+### Melhorado
+- Design e experiência de usuário
+- Transparência sobre a equipe do Instituto
+
 ## [0.2.6] - 2024-02-06
 
 ### Corrigido

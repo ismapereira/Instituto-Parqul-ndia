@@ -1,0 +1,93 @@
+/* Seção de Membros */
+.membros-container {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+}
+
+.membros-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.membro {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.membro-foto {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.membro-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.membro-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.membro-info h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.membro-info p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Efeito de expansão */
+.membro.expanded {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+}
+
+.membro.expanded .membro-foto {
+    width: 40%;
+    height: 400px;
+}
+
+.membro.expanded .membro-info {
+    width: 60%;
+    padding: 2rem;
+    text-align: left;
+}
+
+.membro.expanded .membro-info::before {
+    content: attr(data-role);
+    display: block;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.membro.expanded .membro-info p {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .membro.expanded {
+        grid-column: span 1;
+        flex-direction: column;
+    }
+
+    .membro.expanded .membro-foto,
+    .membro.expanded .membro-info {
+        width: 100%;
+    }
+}

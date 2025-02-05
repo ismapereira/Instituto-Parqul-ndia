@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.2.6
+- **Versão**: 0.2.7
 - **Data**: 06 de Fevereiro de 2024
 
 ### Novidades
@@ -28,6 +28,10 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Manutenção de favicons em formato .png
 - Correção de caminhos para favicons
 - Melhoria na compatibilidade de carregamento de recursos estáticos
+- Adicionada seção "Nossa Equipe"
+- Cartões interativos para membros do Instituto
+- Efeito de expansão horizontal ao clicar
+- Detalhes sobre funções e papéis da equipe
 
 ## Funcionalidades
 
