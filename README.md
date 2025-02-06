@@ -179,3 +179,85 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 Instituto Parquelândia - institutoparquelandia@gmail.com
 
 Desenvolvido com  pela comunidade de Parquelândia.
+
+# 🌱 Instituto Parquelândia: Unindo Vidas, Fortalecendo a Comunidade
+
+![Versão](https://img.shields.io/badge/Versão-0.4.1-brightgreen)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Licença](https://img.shields.io/badge/Licença-MIT-blue)
+[![Instagram](https://img.shields.io/badge/Instagram-@institutoparquelandia-E4405F?logo=instagram)](https://www.instagram.com/institutoparquelandia/)
+
+![Capa do Projeto](src/img/logo.png)
+
+## 🌟 Sobre o Projeto
+
+O Instituto Parquelândia é uma iniciativa social dedicada a transformar vidas e fortalecer a comunidade de Parquelândia, em Fortaleza, Ceará. Nossa missão vai além de simples assistência social - somos agentes de mudança, comprometidos com o desenvolvimento integral e o empoderamento comunitário.
+
+## 🎯 Nossos Objetivos
+
+- 💖 **Bem-Estar Social**: Promover saúde, apoio e qualidade de vida
+- 🎓 **Desenvolvimento Integral**: Capacitar através de educação e workshops
+- 👥 **Pensamento Coletivo**: Incentivar colaboração e inteligência coletiva
+- 🤝 **Ações Sociais**: Realizar projetos de impacto direto na comunidade
+
+## ✨ Funcionalidades
+
+- 📱 Design responsivo e mobile-first
+- 🎨 Interface moderna e acessível
+- 🌈 Menu hambúrguer interativo
+- 📸 Galeria de ações sociais
+- 🔍 Seção detalhada sobre a equipe
+
+## 🚀 Tecnologias Utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+- HTML5 semântico
+- CSS3 com flexbox e media queries
+- JavaScript moderno
+- Design responsivo
+- Animações CSS
+- Web APIs
+
+## 📦 Instalação
+
+1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/instituto-parquelandia.git
+```
+
+2. Abra o arquivo `index.html` no seu navegador
+
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📸 Capturas de Tela
+
+*Espaço para adicionar capturas de tela do projeto*
+
+## 📍 Localização
+
+**Endereço**: R. Moreninha Irineu, 464 - Parquelândia, Fortaleza - CE, 60455-310
+
+[![Localização](https://img.shields.io/badge/Google%20Maps-Ver%20Localização-red?logo=googlemaps)](https://goo.gl/maps/localização-exemplo)
+
+## 📞 Contato
+
+- **E-mail**: institutoparquelandia@gmail.com
+- **Instagram**: [@institutoparquelandia](https://www.instagram.com/institutoparquelandia/)
+- **Telefone**: +55 (85) 98863-5829
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Feito com ❤️ pela equipe do Instituto Parquelândia
