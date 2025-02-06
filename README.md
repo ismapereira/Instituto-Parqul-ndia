@@ -10,7 +10,7 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.3.9
+- **Versão**: 0.4.1
 - **Data**: 05 de Fevereiro de 2024
 
 ### Novidades
@@ -69,6 +69,13 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Layout vertical para seção de pilares
 - Rolagem horizontal para barra de objetivos
 - Experiência de usuário otimizada para dispositivos móveis
+- Menu hambúrguer para dispositivos móveis
+- Navegação responsiva com animações
+- Melhor experiência em telas menores
+- Menu hambúrguer com animações avançadas
+- Efeitos de transição modernos
+- Interatividade aprimorada com som e vibração
+- Design responsivo e acessível
 
 ### Adicionado
 - Descrições otimizadas para SEO

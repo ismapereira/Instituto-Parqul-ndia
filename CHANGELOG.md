@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.4.1] - 2024-02-05
+
+### Melhorias de Interface
+- Animações avançadas para menu hambúrguer
+- Efeitos de transição com curvas de Bézier
+- Blur e transparência no fundo do menu
+- Animações de entrada e saída dos links de navegação
+
+### Recursos Interativos
+- Efeito sonoro ao interagir com menu
+- Vibração suave em dispositivos compatíveis
+- Transições mais suaves e modernas
+
+### Detalhes Técnicos
+- Implementação de `backdrop-filter` para efeito de vidro
+- Uso de `cubic-bezier` para animações naturais
+- Adição de delay nos links para efeito cascata
+- Suporte a diferentes dispositivos e navegadores
+
+## [0.4.0] - 2024-02-05
+
+### Adicionado
+- Menu hambúrguer para navegação em dispositivos móveis
+- Script de interatividade para menu mobile
+- Animações de abertura e fechamento do menu
+
+### Melhorias
+- Navegação responsiva com transições suaves
+- Fechamento do menu ao clicar em links ou fora do menu
+- Acessibilidade e usabilidade em dispositivos móveis
+
 ## [0.3.9] - 2024-02-05
 
 ### Melhorias de Responsividade
