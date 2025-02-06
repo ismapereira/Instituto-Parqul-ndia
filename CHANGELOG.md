@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.9] - 2024-02-05
+
+### Melhorias de Responsividade
+- Implementação de layout vertical para seção de pilares em dispositivos móveis
+- Adição de rolagem horizontal para barra de objetivos em telas menores
+- Otimização de experiência do usuário em dispositivos com tela reduzida
+- Efeitos de transição e hover adicionados para melhorar interatividade
+- Scrollbar oculta para visual mais limpo em dispositivos móveis
+
+### Detalhes Técnicos
+- Media queries adicionadas ao `styles.css`
+- Suporte a `scroll-snap` para navegação fluida
+- Ajustes de espaçamento e dimensionamento para diferentes tamanhos de tela
+
 ## [0.3.8] - 2024-02-06
 
 ### Adicionado

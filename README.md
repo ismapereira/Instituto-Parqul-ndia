@@ -10,8 +10,8 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 
 ## Versão Atual
 
-- **Versão**: 0.3.8
-- **Data**: 06 de Fevereiro de 2024
+- **Versão**: 0.3.9
+- **Data**: 05 de Fevereiro de 2024
 
 ### Novidades
 - Validação de formulário de contato
@@ -65,6 +65,10 @@ Unir vidas e fortalecer a comunidade através de ações sociais transformadoras
 - Metadados detalhados para motores de busca
 - Suporte avançado para compartilhamento em redes sociais
 - Atualização do email institucional
+- Melhorias significativas de responsividade
+- Layout vertical para seção de pilares
+- Rolagem horizontal para barra de objetivos
+- Experiência de usuário otimizada para dispositivos móveis
 
 ### Adicionado
 - Descrições otimizadas para SEO
