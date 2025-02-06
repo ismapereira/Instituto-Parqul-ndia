@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.5.0] - 06/02/2024
+
+### Adicionado
+- Integração completa com EmailJS para envio de formulário de contato
+- Validação avançada de campos de formulário
+- Máscara de telefone automática
+- Feedback visual para envio de mensagens
+
+### Melhorado
+- Sistema de envio de mensagens com template personalizado
+- Tratamento de erros no formulário de contato
+- Experiência do usuário na seção de contato
+
+### Corrigido
+- Problemas de validação de formulário
+- Inconsistências no design de formulário
+
 ## [0.4.1] - 2024-02-05
 
 ### Melhorias de Interface

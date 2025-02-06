@@ -32,19 +32,24 @@ O Instituto Parquelândia é uma iniciativa social dedicada a transformar vidas 
 - 📸 Galeria de ações sociais
 - 🔍 Seção detalhada sobre a equipe
 - 🏆 Apresentação dos pilares institucionais
+- 📧 Formulário de contato com validação avançada
+- 🚀 Envio de mensagens via EmailJS
+- 🌐 Máscara de telefone automática
 
 ## 🚀 Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![EmailJS](https://img.shields.io/badge/EmailJS-0052CC?logo=gmail&logoColor=white)
 
 - HTML5 semântico
 - CSS3 com flexbox e media queries
 - JavaScript moderno
 - Design responsivo
 - Animações CSS avançadas
-- Web APIs
+- Integração com EmailJS
+- Validação de formulário em tempo real
 
 ## 🛠️ Ferramentas de Desenvolvimento
 

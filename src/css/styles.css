@@ -205,22 +205,61 @@ body {
     padding: 50px 0;
 }
 
+/* Estilos para Formulário de Contato */
 .formulario-grupo {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    position: relative;
 }
 
 .formulario-input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: var(--border-radius);
-    transition: var(--transicao-padrao);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
 }
 
 .formulario-input:focus {
-    border-color: var(--cor-secundaria);
+    border-color: #0a3d2c;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(196, 163, 90, 0.2);
+    box-shadow: 0 0 5px rgba(10, 61, 44, 0.3);
+}
+
+.formulario-input.input-invalido {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.botao-enviar {
+    background-color: #0a3d2c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #c4a35a;
+}
+
+.botao-enviar:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.status-envio {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
 /* Rodapé */

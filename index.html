@@ -336,7 +336,7 @@
     <section id="contato" class="formulario">
         <div class="container">
             <h2 class="secao-titulo">Entre em Contato</h2>
-            <form id="contact-form">
+            <form id="formulario-contato">
                 <div class="formulario-grupo">
                     <input type="text" id="nome" class="formulario-input" placeholder="Seu nome completo" required>
                     <span id="nome-error" class="error-message"></span>
@@ -344,6 +344,10 @@
                 <div class="formulario-grupo">
                     <input type="email" id="email" class="formulario-input" placeholder="Seu melhor e-mail" required>
                     <span id="email-error" class="error-message"></span>
+                </div>
+                <div class="formulario-grupo">
+                    <input type="tel" id="telefone" class="formulario-input" placeholder="Seu telefone" pattern="\(\d{2}\)\s*\d{4,5}-\d{4}">
+                    <span id="telefone-error" class="error-message"></span>
                 </div>
                 <div class="formulario-grupo">
                     <textarea id="mensagem" class="formulario-input" placeholder="Sua mensagem" rows="5" required></textarea>
@@ -400,10 +404,11 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="src/js/script.js"></script>
     <script src="src/js/objetivos-modal.js"></script>
     <script src="src/js/scroll-animations.js"></script>
-    <script src="src/js/form-validation.js"></script>
+    <script src="src/js/form-emailjs.js"></script>
     <script src="src/js/slide-acoes.js"></script>
     <script src="src/js/membros.js"></script>
     <script src="src/js/smooth-scroll.js"></script>
