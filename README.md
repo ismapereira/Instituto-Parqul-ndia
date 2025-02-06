@@ -5,13 +5,13 @@
 ![Licença](https://img.shields.io/badge/Licença-MIT-blue)
 [![Instagram](https://img.shields.io/badge/Instagram-@institutoparquelandia-E4405F?logo=instagram)](https://www.instagram.com/institutoparquelandia/)
 
-![Capa do Projeto](src/img/logo.png)
+![Capa do Projeto](src/img/capa-projeto.png)
 
 ## 👤 Desenvolvedor
 **Ismael Pereira**
 - 🖥️ Desenvolvedor responsável pelo projeto
-- 📍 Fortaleza, Ceará - Brasil
-- 🌐 [Perfil no GitHub](https://github.com/seu-usuario-github)
+- 📍 Feira de Santana, Bahia - Brasil
+- 🌐 [Perfil no GitHub](https://github.com/ismapereira)
 
 ## 🌟 Sobre o Projeto
 
@@ -80,13 +80,6 @@ cd instituto-parquelandia
 **Endereço**: R. Moreninha Irineu, 464 - Parquelândia, Fortaleza - CE, 60455-310
 
 [![Localização](https://img.shields.io/badge/Google%20Maps-Ver%20Localização-red?logo=googlemaps)](https://goo.gl/maps/localização-exemplo)
-
-## 📞 Contatos
-
-- **Desenvolvedor**: Ismael Pereira
-- **E-mail**: institutoparquelandia@gmail.com
-- **Instagram**: [@institutoparquelandia](https://www.instagram.com/institutoparquelandia/)
-- **Telefone**: +55 (85) 98863-5829
 
 ## 📄 Licença
 
