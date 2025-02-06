@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const botaoEnviar = formulario.querySelector('.btn');
     const spanErros = formulario.querySelectorAll('.error-message');
 
+    // Criar elemento de notificação
+    const notificacao = document.createElement('div');
+    notificacao.classList.add('notificacao');
+    formulario.appendChild(notificacao);
+
     // Máscara de telefone
     function mascararTelefone(evento) {
         let telefone = evento.target.value.replace(/\D/g, '');
@@ -35,6 +40,18 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             return false;
         }
+    }
+
+    // Função para mostrar notificação
+    function mostrarNotificacao(mensagem, tipo) {
+        notificacao.textContent = mensagem;
+        notificacao.className = `notificacao ${tipo}`;
+        
+        // Remover notificação após 5 segundos
+        setTimeout(() => {
+            notificacao.textContent = '';
+            notificacao.className = 'notificacao';
+        }, 5000);
     }
 
     // Adicionar listeners
@@ -73,12 +90,18 @@ document.addEventListener('DOMContentLoaded', function() {
             // Enviar email usando EmailJS
             emailjs.send("service_mswf0fe", "template_173daeq", dadosFormulario)
                 .then(function(response) {
-                    spanErros[4].textContent = 'Mensagem enviada com sucesso! ';
-                    spanErros[4].style.color = 'green';
-                    formulario.reset();
+                    // Limpar campos do formulário
+                    camposFormulario.forEach(campo => {
+                        campo.value = '';
+                        campo.classList.remove('input-invalido');
+                    });
+                    spanErros.forEach(span => span.textContent = '');
+
+                    // Mostrar notificação de sucesso
+                    mostrarNotificacao('Mensagem enviada com sucesso! 🎉', 'sucesso');
                 }, function(error) {
-                    spanErros[4].textContent = 'Erro ao enviar mensagem. Tente novamente.';
-                    spanErros[4].style.color = 'red';
+                    // Mostrar notificação de erro
+                    mostrarNotificacao('Erro ao enviar mensagem. Tente novamente.', 'erro');
                 })
                 .finally(() => {
                     botaoEnviar.disabled = false;

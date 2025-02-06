@@ -262,6 +262,30 @@ body {
     font-weight: bold;
 }
 
+/* Notificação de Formulário */
+.notificacao {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.notificacao.sucesso {
+    background-color: #4CAF50;
+    color: white;
+    opacity: 1;
+}
+
+.notificacao.erro {
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+}
+
 /* Rodapé */
 .rodape {
     background-color: var(--cor-primaria);

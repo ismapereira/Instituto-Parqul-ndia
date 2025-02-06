@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.5.1] - 06/02/2024
+
+### Adicionado
+- Sistema de notificações para formulário de contato
+- Limpeza automática de campos após envio
+- Feedback visual para envio de mensagens
+- Animação de notificações
+
+### Melhorado
+- Experiência do usuário no formulário de contato
+- Tratamento de erros e sucessos no envio
+
+### Corrigido
+- Comportamento de reset de formulário
+- Estilização de mensagens de status
+
 ## [0.5.0] - 06/02/2024
 
 ### Adicionado

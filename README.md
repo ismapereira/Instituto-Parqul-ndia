@@ -1,6 +1,6 @@
-# 🌱 Instituto Parquelândia: Unindo Vidas, Fortalecendo a Comunidade
+# Instituto Parquelândia: Unindo Vidas, Fortalecendo a Comunidade
 
-![Versão](https://img.shields.io/badge/Versão-0.4.1-brightgreen)
+![Versão](https://img.shields.io/badge/Versão-0.5.1-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Licença](https://img.shields.io/badge/Licença-MIT-blue)
 [![Instagram](https://img.shields.io/badge/Instagram-@institutoparquelandia-E4405F?logo=instagram)](https://www.instagram.com/institutoparquelandia/)
@@ -35,6 +35,8 @@ O Instituto Parquelândia é uma iniciativa social dedicada a transformar vidas 
 - 📧 Formulário de contato com validação avançada
 - 🚀 Envio de mensagens via EmailJS
 - 🌐 Máscara de telefone automática
+- 🔔 Sistema de notificações para formulário
+- ✅ Limpeza automática de campos após envio
 
 ## 🚀 Tecnologias Utilizadas
 

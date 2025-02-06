@@ -16,6 +16,12 @@
 
 ## Melhorias Concluídas
 
+### Versão 0.5.1
+- [x] Sistema de notificações para formulário
+- [x] Limpeza automática de campos após envio
+- [x] Feedback visual para envio de mensagens
+- [x] Animação de notificações
+
 ### Versão 0.5.0
 - [x] Integração com EmailJS
 - [x] Validação avançada de formulário
