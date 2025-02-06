@@ -45,4 +45,4 @@ Seja respeitoso, inclusivo e construtivo. Não serão tolerados comportamentos d
 
 ---
 
-Feito com ❤️ pela comunidade de Parquelândia
+Feito com ❤️ por Ismael Pereira para o Instituto Parquelандia!

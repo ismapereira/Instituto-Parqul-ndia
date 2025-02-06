@@ -26,7 +26,7 @@ Os mantenedores do projeto são responsáveis por esclarecer e fazer cumprir nos
 
 ## Aplicação
 
-Casos de comportamento inaceitável podem ser reportados para institutoparquelandia@gmail.com.
+Casos de comportamento inaceitável podem ser reportados para ismaelpereirafeitosa@hotmail.com.
 
 ---
 

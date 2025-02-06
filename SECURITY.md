@@ -11,7 +11,7 @@
 
 Se você descobrir uma vulnerabilidade de segurança, por favor:
 
-1. Envie um e-mail para institutoparquelandia@gmail.com
+1. Envie um e-mail para ismaelpereirafeitosa@hotmail.com
 2. Forneça detalhes específicos sobre a vulnerabilidade
 3. Não divulgue publicamente antes que possamos investigar
 
