@@ -1,0 +1,265 @@
+/* ==========================================================================
+   DESIGN SYSTEM - INSTITUTO PARQUELÂNDIA (NUXT 4 VERSION)
+   Estilos globais, Design Tokens, Variáveis HSL e Chaveamento Claro/Escuro
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design Tokens & CSS Variables
+   -------------------------------------------------------------------------- */
+:root {
+  /* Fontes */
+  --font-title: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Tempos e Curvas de Transição (Premium Bezier) */
+  --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease-in-out;
+  
+  /* Espaçamentos e Bordas */
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-full: 9999px;
+  
+  /* ================= TEMAS CLAROS (Padrão) ================= */
+  --brand-primary: hsl(161, 74%, 15%);    /* Verde Musgo Profundo */
+  --brand-secondary: hsl(41, 48%, 56%);   /* Dourado Envelhecido/Bronze */
+  --brand-accent: hsl(161, 80%, 40%);      /* Verde Esmeralda Vibrante */
+  
+  --bg-primary: hsl(210, 20%, 98%);        /* Branco Acinzentado */
+  --bg-secondary: hsl(0, 0%, 100%);        /* Branco Puro */
+  --bg-glass: rgba(255, 255, 255, 0.75);   /* Vidro Claro */
+  --bg-footer: hsl(161, 74%, 10%);         /* Rodapé Escuro no tema claro */
+
+  --text-primary: hsl(210, 30%, 24%);      /* Cinza Escuro */
+  --text-secondary: hsl(210, 16%, 46%);    /* Cinza Médio */
+  --text-light: hsl(0, 0%, 100%);          /* Texto Branco */
+
+  --border-color: hsl(210, 14%, 90%);
+  --border-glow: rgba(16, 185, 129, 0.1);
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+  
+  --glow-color: rgba(10, 61, 44, 0.05);
+  --scroll-bar-color: hsl(161, 74%, 20%);
+}
+
+/* ================= TEMA ESCURO (Dark Mode) ================= */
+.dark {
+  --bg-primary: hsl(161, 74%, 4%);         /* Verde Negro Imersivo */
+  --bg-secondary: hsl(161, 74%, 7%);       /* Vidro Verde Escuro */
+  --bg-glass: rgba(2, 20, 14, 0.8);        /* Efeito de Vidro Escuro */
+  --bg-footer: hsl(161, 74%, 3%);
+
+  --brand-primary: hsl(161, 80%, 35%);     /* Esmeralda Glow */
+  --brand-secondary: hsl(41, 65%, 60%);    /* Dourado Glow */
+
+  --text-primary: hsl(161, 20%, 93%);      /* Off-White Esmeralda */
+  --text-secondary: hsl(161, 10%, 70%);    /* Cinza Esmeralda Suave */
+
+  --border-color: rgba(255, 255, 255, 0.06);
+  --border-glow: rgba(16, 185, 129, 0.25);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 40px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 25px 60px rgba(0, 0, 0, 0.6);
+
+  --glow-color: rgba(16, 185, 129, 0.05);
+  --scroll-bar-color: hsl(41, 65%, 60%);
+}
+
+/* --------------------------------------------------------------------------
+   2. Reset e Estilos de Base
+   -------------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: var(--border-radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-secondary);
+}
+
+/* --------------------------------------------------------------------------
+   3. Estrutura e Classes Utilitárias (Layout)
+   -------------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.secao {
+  padding: 100px 0;
+  position: relative;
+}
+
+.secao-titulo {
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--text-primary);
+  margin-bottom: 50px;
+  letter-spacing: -0.5px;
+}
+
+.secao-titulo span {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* --------------------------------------------------------------------------
+   4. Botões e Ações Premium
+   -------------------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-family: var(--font-title);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background-color: var(--brand-primary);
+  color: var(--text-light);
+  box-shadow: 0 4px 20px rgba(10, 61, 44, 0.15);
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0) 100%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.btn-primary:hover::after {
+  transform: translateX(100%);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px var(--glow-color);
+  background-color: var(--brand-secondary);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--border-color);
+  transform: translateY(-3px);
+}
+
+/* --------------------------------------------------------------------------
+   5. Glassmorphism & Cards
+   -------------------------------------------------------------------------- */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px) saturate(120%);
+  -webkit-backdrop-filter: blur(16px) saturate(120%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-smooth);
+}
+
+.glass-card:hover {
+  border-color: var(--border-glow);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-5px);
+}
+
+/* --------------------------------------------------------------------------
+   6. Animações de Entrada Dinâmicas
+   -------------------------------------------------------------------------- */
+.anim-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.anim-fade-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Efeito de Gradiente de Fundo Abstrato (Organic Orbs) */
+.orb-gradient {
+  position: absolute;
+  border-radius: var(--border-radius-full);
+  filter: blur(80px);
+  z-index: 0;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.dark .orb-gradient {
+  opacity: 0.08;
+}
+
+/* Responsividade Geral */
+@media (max-width: 768px) {
+  .secao {
+    padding: 60px 0;
+  }
+  
+  .secao-titulo {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}

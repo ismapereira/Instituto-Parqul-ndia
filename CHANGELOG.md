@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.0.0] - 29/05/2026
+
+### Adicionado
+- Migração completa e reestruturação do zero com **Nuxt 4** e **Vue 3**.
+- Arquitetura de arquivos moderna e modular baseada na pasta `app/`.
+- Suporte nativo a **Dark / Light Mode** integrado ao seletor de tema com persistência em `LocalStorage`.
+- Design System de Alta Fidelidade (Premium HSL) com vidro fosco (glassmorphism) e efeitos neon em `app/assets/css/main.css`.
+- Micro-animações e scroll reveal com **Intersection Observer** global configurado em `app/pages/index.vue`.
+- Animação de contagem regressiva progressiva no componente `ImpactStats.vue` ativada por scroll.
+- Pilares interativos expansíveis *in-place* com transições suaves no componente `Pilares.vue`.
+- Carrossel responsivo com suporte nativo a gestos de toque (touch swipe) para celulares e zoom parallax no componente `GaleriaAcoes.vue`.
+- Grade de perfis 3D interativa com redes sociais no componente `Equipe.vue`.
+- Formulário reativo com floating labels, máscara regex de telefone em tempo real e integração do SDK EmailJS no componente `ContatoForm.vue`.
+- Notificação Toast flutuante com barra de progresso regressiva de auto-fechamento (5s) no componente `Toast.vue`.
+- Botão voltar ao topo flutuante ativado por scroll e mapa estilizado no componente `Footer.vue`.
+- 7 imagens em alta definição reais geradas por IA para a galeria de ações sociais e retratos de membros (`public/img/`).
+- Documentação visual e técnica detalhada do Design System em `DESIGN.md`.
+- Geração de Site Estático (SSG) hiper-otimizada compilada para `.output/public`.
+
+### Modificado
+- Limpeza total de arquivos legados antigos e duplicados (`src/css`, `src/js`, e `index.html` na raiz).
+- Otimização automática e avançada de SEO em `nuxt.config.ts` (JSON-LD Schema, Open Graph, Twitter e Geo tags).
+- Documentação central de desenvolvimento no `README.md`.
+
 ## [0.5.1] - 06/02/2024
 
 ### Adicionado

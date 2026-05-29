@@ -1,109 +1,140 @@
 # Instituto Parquelândia: Unindo Vidas, Fortalecendo a Comunidade
 
-![Versão](https://img.shields.io/badge/Versão-0.5.1-brightgreen)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Versão](https://img.shields.io/badge/Versão-2.0.0-brightgreen)
+![Status](https://img.shields.io/badge/Status-Restruturado%20(Nuxt%204)-blue)
 ![Licença](https://img.shields.io/badge/Licença-MIT-blue)
 [![Instagram](https://img.shields.io/badge/Instagram-@institutoparquelandia-E4405F?logo=instagram)](https://www.instagram.com/institutoparquelandia/)
 
-![Capa do Projeto](src/img/capa-projeto.png)
+![Capa do Projeto](public/img/capa-projeto.png)
 
-## 👤 Desenvolvedor
+## 👤 Desenvolvedor Responsável
 **Ismael Pereira**
-- 🖥️ Desenvolvedor responsável pelo projeto
+- 🖥️ Desenvolvedor Fullstack
 - 📍 Feira de Santana, Bahia - Brasil
 - 🌐 [Perfil no GitHub](https://github.com/ismapereira)
 
+---
+
 ## 🌟 Sobre o Projeto
 
-O Instituto Parquelândia é uma iniciativa social dedicada a transformar vidas e fortalecer a comunidade de Parquelândia, em Fortaleza, Ceará. Desenvolvido por Ismael Pereira, o projeto visa ir além da simples assistência social, atuando como um agente de mudança comprometido com o desenvolvimento integral e o empoderamento comunitário.
+O **Instituto Parquelândia** é uma iniciativa social dedicada a transformar vidas e fortalecer a comunidade de Parquelândia, em Fortaleza, Ceará. O projeto visa ir além da simples assistência social, atuando como um agente de mudança comprometido com o desenvolvimento integral e o empoderamento comunitário.
 
-## 🎯 Missão e Objetivos
-
-- 💖 **Bem-Estar Social**: Promover saúde, apoio e qualidade de vida
-- 🎓 **Desenvolvimento Integral**: Capacitar através de educação e workshops
-- 👥 **Pensamento Coletivo**: Incentivar colaboração e inteligência coletiva
-- 🤝 **Ações Sociais**: Realizar projetos de impacto direto na comunidade
-
-## ✨ Funcionalidades do Site
-
-- 📱 Design responsivo e mobile-first
-- 🎨 Interface moderna e acessível
-- 🌈 Menu hambúrguer interativo com animações
-- 📸 Galeria de ações sociais
-- 🔍 Seção detalhada sobre a equipe
-- 🏆 Apresentação dos pilares institucionais
-- 📧 Formulário de contato com validação avançada
-- 🚀 Envio de mensagens via EmailJS
-- 🌐 Máscara de telefone automática
-- 🔔 Sistema de notificações para formulário
-- ✅ Limpeza automática de campos após envio
-
-## 🚀 Tecnologias Utilizadas
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![EmailJS](https://img.shields.io/badge/EmailJS-0052CC?logo=gmail&logoColor=white)
-
-- HTML5 semântico
-- CSS3 com flexbox e media queries
-- JavaScript moderno
-- Design responsivo
-- Animações CSS avançadas
-- Integração com EmailJS
-- Validação de formulário em tempo real
-
-## 🛠️ Ferramentas de Desenvolvimento
-
-- Visual Studio Code
-- Git e GitHub
-- Browser DevTools
-- Ferramentas de design responsivo
-
-## 📦 Instalação e Uso
-
-1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/instituto-parquelandia.git
-```
-
-2. Navegue até o diretório do projeto
-```bash
-cd instituto-parquelandia
-```
-
-3. Abra o arquivo `index.html` no seu navegador
-
-## 🤝 Como Contribuir
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📍 Localização do Instituto
-
-**Endereço**: R. Moreninha Irineu, 464 - Parquelândia, Fortaleza - CE, 60455-310
-
-[![Localização](https://img.shields.io/badge/Google%20Maps-Ver%20Localização-red?logo=googlemaps)](https://goo.gl/maps/localização-exemplo)
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🔍 Histórico de Versões
-
-### Versão 0.4.1 - 05/02/2024
-- Menu hambúrguer com animações avançadas
-- Melhorias de responsividade
-- Efeitos interativos modernos
-
-### Versão 0.4.0 - 05/02/2024
-- Implementação do menu mobile
-- Navegação responsiva
-- Novos recursos de interface
+Esta versão 2.0.0 representa uma **reestruturação total e do zero** do website, migrado para a arquitetura moderna do **Nuxt 4** com **Vue 3** e **Vanilla CSS**, proporcionando uma experiência de usuário (UX) premium de altíssimo impacto visual, SEO perfeito e velocidade de carregamento instantânea no mobile.
 
 ---
 
-Feito com ❤️ por Ismael Pereira para o Instituto Parquelândia
+## 🎯 Missão e Objetivos
+
+* 💖 **Bem-Estar Social**: Promover saúde, apoio psicológico, doação de alimentos e qualidade de vida.
+* 🎓 **Desenvolvimento Integral**: Capacitar a comunidade através de workshops práticos (artesanato, costura) e cursos de reforço escolar.
+* 👥 **Pensamento Coletivo**: Incentivar a inteligência coletiva e a colaboração através de diálogos abertos e fóruns de escuta ativa.
+* 🤝 **Ações Sociais**: Realizar mutirões de impacto social e suporte contínuo a grupos comunitários vulneráveis.
+
+---
+
+## ✨ Funcionalidades e Diferenciais do Novo Site
+
+* ⚡ **Geração de Site Estático (SSG)**: Carregamento inicial ultrarrápido (sub-segundo) graças à pré-compilação em HTML do Nuxt.
+* 🎨 **Design System de Alta Fidelidade (Premium HSL)**: Sistema visual completo com cores e tokens HSL adaptativos.
+* 🌓 **Dark / Light Mode Nativo**: Transição de tema super fluida com persistência no LocalStorage.
+* 📱 **Mobile-First & Touch-Friendly**: Sliders e carrosséis personalizados de toque (touch swipe) nativos para ações e equipe, sem bibliotecas pesadas.
+* 🔮 **Glassmorphism**: Aplicação elegante de filtros de desfoque e transparência 3D.
+* 📧 **Contato com EmailJS**: Formulário com labels flutuantes reativas, máscara regex dinâmica para telefone, validações completas em tempo real e sistema de **notificação Toast** animada.
+* 🔍 **SEO de Nível Corporativo**: Otimização automática de metadados, Open Graph, Twitter Cards, tags geográficas e JSON-LD Schema.org estruturado em pt-BR.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* **Nuxt 4 / Vue 3** (Framework Progressivo de Alta Performance)
+* **Vanilla CSS Moderno** (Variáveis CSS, Flexbox, CSS Grid e HSL)
+* **EmailJS SDK** (Integração e envio seguro de e-mails)
+* **FontAwesome 6** (Biblioteca de ícones vetoriais)
+* **Outfit & Inter** (Google Fonts integradas)
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+├── app/
+│   ├── assets/
+│   │   └── css/
+│   │       └── main.css             # Design System e variáveis de tema HSL
+│   ├── components/
+│   │   ├── Header.vue               # Menu sticky glass e controle de tema
+│   │   ├── Hero.vue                 # Apresentação visual imersiva
+│   │   ├── ImpactStats.vue          # Contadores animados sob scroll
+│   │   ├── Pilares.vue              # Cards de pilares interativos expansíveis
+│   │   ├── GaleriaAcoes.vue         # Carrossel de ações com suporte a toque
+│   │   ├── Equipe.vue               # Grade de perfis e redes sociais
+│   │   ├── ContatoForm.vue          # Formulário reativo e EmailJS
+│   │   ├── Footer.vue               # Rodapé dark, mapa e voltar ao topo
+│   │   └── Toast.vue                # Feedback flutuante de sucesso/erro
+│   ├── layouts/
+│   │   └── default.vue              # Layout padrão global do site
+│   ├── pages/
+│   │   └── index.vue                # Composição e Intersection Observer de Scroll
+│   └── app.vue                      # Elemento raiz do Nuxt
+├── public/
+│   ├── logo.png                     # Logotipo oficial
+│   ├── favicons/                    # Ícones de navegador e apple
+│   └── img/                         # Imagens otimizadas das ações e equipe
+├── nuxt.config.ts                   # Configurações globais de SEO, fontes e estilos
+├── tsconfig.json                    # Configurações TypeScript do Nuxt
+└── DESIGN.md                        # Documentação técnica do Design System
+```
+
+---
+
+## 🛠️ Instalação e Execução Local
+
+### Pré-requisitos
+* Node.js (versão 18.x ou superior recomendada)
+* npm (gerenciador de pacotes)
+
+### Passo a Passo
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/ismapereira/Instituto-Parqul-ndia.git
+```
+
+2. Navegue até a pasta do projeto:
+```bash
+cd Instituto-Parqul-ndia
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Execute o servidor de desenvolvimento local:
+```bash
+npm run dev
+```
+O projeto estará rodando localmente em `http://localhost:3000`.
+
+---
+
+## 📦 Produção e Publicação (Build SSG)
+
+Para compilar e otimizar o site para a publicação final em qualquer hospedagem estática (como GitHub Pages, Vercel ou Netlify):
+
+1. Gere os arquivos estáticos pré-renderizados:
+```bash
+npm run generate
+```
+Isso criará uma pasta chamada `.output/public` contendo o HTML, CSS e JS hiper-otimizados e prontos para publicação.
+
+2. Visualize localmente o build de produção:
+```bash
+npm run preview
+```
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.

@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://institutoparquelandia.org/sitemap.xml
